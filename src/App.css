@@ -1,38 +1,73 @@
 .App {
   text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+#root{
+  margin:0;
+  font-family: 'Poppins', sans-serif;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+* {
+  box-sizing: border-box;
+}
+.nava{
+  height: 70px;
   display: flex;
-  flex-direction: column;
+  background-color:red;
+  padding: 20px 36px;
+  margin-top: 0;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.nava2{
+padding-left:200px;
+font-style: normal;
+font-weight: 500;
+font-size: 14.4608px;
+line-height: 18px;
+
+color: #FFFFFF;
 }
 
-.App-link {
-  color: #61dafb;
+.journal{
+height: 168px;
+width: 470px; 
+margin-left: 40px;
+margin-right:19px;
+margin-top: 20px;
+display: flex;
+align-items: center;
+
+}
+.jour-image{
+  width: 125px;
+height: 168px;
+}
+.jour-title{
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+color: #2B283A;
+}
+.jour-date{
+font-weight: 700;
+font-size: 12.24px;
+line-height: 12px;
+color: #2B283A;
+}
+.jour-text{
+font-size: 10px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: justify;
+padding-left: 19px;
+
+
+
+}
+.jour-stat{
+border-radius: 0px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
