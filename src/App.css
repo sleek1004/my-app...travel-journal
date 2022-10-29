@@ -68,6 +68,24 @@ padding-left: 19px;
 }
 .jour-stat{
 border-radius: 0px;
-
+}
+.map-link{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+text-decoration-line: underline;
+color: #918E9B;
+text-underline-offset:4px;
+}
+.location{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+letter-spacing: 0.17em;
+color: #2B283A;
 }
 
